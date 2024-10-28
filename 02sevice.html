@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <link rel="stylesheet" href="02styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>КСК Юнион</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <nav class="nav-bar">
+        <div class="toggle-menu">
+          <div class="line line1"></div>
+          <div class="line line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="./index.html" class="a-header">ГЛАВНАЯ</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="./01about.html" class="a-header">О КЛУБЕ</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="./02sevice.html" class="a-header">УСЛУГИ</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="./03team.html" class="a-header">КОМАНДА</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="./04contact.html" class="a-header">КОНТАКТЫ</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!--HEADER-->
+      <header>
+        <nav>
+          <a href="./index.html"><img src="./img/logo2.svg" alt="logo" /></a>
+          <ul class="ul-header">
+            <a href="./index.html" class="a-header">ГЛАВНАЯ</a>
+            <a href="./01about.html" class="a-header">О КЛУБЕ</a>
+            <a href="./02sevice.html" class="a-header">УСЛУГИ</a>
+            <a href="./03team.html" class="a-header">КОМАНДА</a>
+            <a href="./04contact.html" class="a-header">КОНТАКТЫ</a>
+          </ul>
+        </nav>
+      </header>
+      <!--HEADER-->
+
+      <div class="box">
+        <div class="lrft">
+          <h6>УСЛУГИ</h6>
+          <img id="leftextra" src="./img/photo18.png" />
+        </div>
+        <div class="right">
+          <h2>УСЛУГИ КСК ЮНИОН</h2>
+          <img id="rightextra" src="./img/photo19.png" />
+        </div>
+      </div>
+
+      <section class="section-about">
+        <div class="tiles">
+          <div class="tile">
+            <h6>ИНДИВИДУАЛЬНАЯ ТРЕНИРОВКА</h6>
+            <br />
+            <p>
+              Подойдет для тех, кто хочет освоить азы верховой езды или освежить
+              в памяти забытые навыки. Длительность тренировки-60 минут.
+              Тренировка проводится индивидуально
+            </p>
+            <br />
+            <p>Стоимость</p>
+            <br />
+
+            <p>60 минут - <b>4000P</b></p>
+          </div>
+          <div class="tile">
+            <h6>ГРУППОВАЯ ТРЕНИРОВКА</h6>
+            <br />
+            <p>
+              Конный клуб предоставляет возможность изучать дисциплины конного
+              спорта, такие как конкур, выездка и вольтижировка. Участие в
+              тренировках и соревнованиях помогает развивать навыки, повышать
+              уровень подготовки и достигать новых целей.
+            </p>
+            <br />
+            <p>Стоимость</p>
+            <br />
+
+            <p>60 минут - <b>2000P</b></p>
+          </div>
+          <div class="tile">
+            <h6>СПОРТИВНАЯ ТРЕНИРОВКА</h6>
+            <br />
+            <p>
+              Взаимодействие с лошадьми и природой имеет успокаивающий эффект на
+              нервную систему, помогает снять стресс и улучшить настроение. Это
+              может быть особенно полезно для тех, кто сталкивается с повышенным
+              напряжением или тревожностью.
+            </p>
+            <br />
+            <p>Стоимость</p>
+            <br />
+
+            <p>60 минут - <b>5000P</b></p>
+          </div>
+        </div>
+        <div class="tiles">
+          <div class="tile">
+            <h6>ИППОТЕРАПИЯ</h6>
+            <br />
+            <p>
+              Езда верхом способствуют укреплению мышц, улучшению координации
+              движений, развитию баланса и выносливости. Это также помогает
+              поддерживать общее физическое здоровье.
+            </p>
+            <br />
+            <p>Стоимость</p>
+            <br />
+
+            <p>15 минут - <b>1000P</b></p>
+          </div>
+          <div class="tile">
+            <h6>АРЕНДА ЛОШАДИ ДЛЯ ФОТОСЕССИИ</h6>
+            <br />
+            <p>
+              В конном клубе можно встретить людей с общим интересом к лошадям и
+              конному спорту. Это создает возможности для новых знакомств,
+              развития социальных навыков и работы в команде при уходе за
+              лошадьми или участии в соревнованиях.
+            </p>
+            <br />
+            <p>Стоимость</p>
+            <br />
+
+            <p>60 минут - <b>5000P</b></p>
+          </div>
+          <div class="tile">
+            <h6>ПОСТОЙ ЧАСТНЫХ ЛОШАДЕЙ</h6>
+            <br />
+            <p>
+              Конный клуб предоставляет возможность изучать дисциплины конного
+              спорта, такие как конкур, выездка и вольтижировка. Участие в
+              тренировках и соревнованиях помогает развивать навыки, повышать
+              уровень подготовки и достигать новых целей.
+            </p>
+            <br />
+            <p>Стоимость</p>
+            <br />
+
+            <p>1 месяц - <b>33000P</b></p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--SECTION-FORM-->
+    <section class="section-form">
+      <div class="wrapper">
+        <section class="section-about">
+          <div class="box">
+            <div class="lrft">
+              <h4></h4>
+            </div>
+            <div id="extraform" class="right">
+              <h4 id="extrafont">ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ</h4>
+              <div class="div33">
+                <form
+                  action="https://formspree.io/f/mvoevoaz"
+                  method="post"
+                  class="contact-form"
+                >
+                  <input name="Tel" placeholder="ТЕЛЕФОН" type="tel" required />
+                  <input
+                    name="Email"
+                    placeholder="EMAIL"
+                    type="email"
+                    required
+                  />
+                  <button type="submit" class="btn-form">ОТПРАВИТЬ</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!--SECTION-FORM-->
+    <!--SLIDER-->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+      data-interval="2000"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./img/slide1.png" alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="./img/slide2.png"
+            alt="Second slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./img/slide3.png" alt="Third slide" />
+        </div>
+      </div>
+    </div>
+    <!--SLIDER-->
+    <div class="wrapper">
+      <div class="box">
+        <div class="lrft">
+          <h6>
+            ТЕХНИКА<br />
+            БЕЗОПАСНОСТИ
+          </h6>
+        </div>
+        <div class="right">
+          <h4 id="extrafont">ВО ВРЕМЯ ЗАНЯТИЙ НА ВСАДНИКЕ НЕ ДОЛЖНО БЫТЬ:</h4>
+          <div class="div33">
+            <div class="tab-row">
+              <h6>КОЛЕЦ И ПЕРСТНЕЙ НА ПАЛЬЦАХ РУК</h6>
+            </div>
+            <div class="tab-row">
+              <h6>ДЛИННЫХ ГРОМОЗДКИХ СЕРЁЖЕК И ШЕЙНЫХ УКРАШЕНИЙ</h6>
+            </div>
+            <div class="tab-row">
+              <h6>ДЛИННЫХ СВИСАЮЩИХ ЛЕНТ, ШАРФОВ, ПЛАТКОВ</h6>
+            </div>
+            <div class="tab-row">
+              <h6>ОСТРЫХ ПРЕДМЕТОВ В КАРМАНАХ</h6>
+            </div>
+            <div class="tab-row">
+              <h6>ДЛИННЫЕ ВОЛОСЫ ДОЛЖНЫ БЫТЬ УБРАНЫ</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--SECTION-PHOTOS-->
+      <section class="section-photos">
+        <div class="photo div21"><img src="./img/photo22.png" /></div>
+        <div class="photo div22"></div>
+        <div class="photo div23"><img src="./img/photo21.png" /></div>
+        <div class="photo div24"></div>
+        <div class="photo div25"><img src="./img/photo20.png" /></div>
+      </section>
+      <!--SECTION-PHOTOS-->
+
+      <div class="box">
+        <div class="lrft">
+          <h6>
+            ОДЕЖДА <br />
+            ДЛЯ ЗАНЯТИЙ
+          </h6>
+        </div>
+        <div class="right">
+          <h4 id="extrafont">ЭКИПИРОВКА ВСАДНИКА</h4>
+          <div class="div33">
+            <div class="tab-row">
+              <h6>
+                УДОБНЫЕ, НЕ СЛИШКОМ ШИРОКИЕ БРЮКИ, НЕ СТЕСНЯЮЩИЕ ДВИЖЕНИЙ, БЕЗ
+                ГРУБЫХ ШВОВ, ДЛИНОЙ ДО ЩИКОЛОТОК
+              </h6>
+            </div>
+            <div class="tab-row">
+              <h6>
+                ОБУВЬ НА ТВЁРДОЙ ПОДОШВЕ, БЕЗ ОГРОМНЫХ «ЯЗЫКОВ», С ГОЛЕНИЩЕМ ДО
+                КОЛЕНА И С МАЛЕНЬКИМ КВАДРАТНЫМ КАБЛУЧКОМ
+              </h6>
+            </div>
+            <div class="tab-row">
+              <h6>
+                ОДЕЖДА, ОБЛЕГАЮЩАЯ ВЕРХНЮЮ ЧАСТЬ ТЕЛА: ТОНКИЙ СВИТЕР, ВОДОЛАЗКА,
+                РУБАШКА, КУРТКА
+              </h6>
+            </div>
+            <div class="tab-row">
+              <h6>ПЕРЧАТКИ (ЖЕЛАТЕЛЬНО)</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section-p">
+      <h5>
+        Знание и
+        <span class="colortext">соблюдение техники безопасности </span>поможет
+        сделать<br />
+        Ваше пребывание в нашем клубе не только увлекательным, <br />
+        но и безопасным!
+      </h5>
+    </section>
+    <!--SECTION-3-->
+
+    <footer>
+      <div class="wrapper-footer">
+        <div class="footer-column">
+          <a href="/index.html"><img src="./img/logo.svg" alt="logo" /></a>
+        </div>
+        <div class="footer-column">
+          <h6>НАВИГАЦИЯ</h6>
+          <br />
+          <div class="ul-footer">
+            <a href="./index.html">ГЛАВНАЯ</a>
+            <a href="./01about.html">О КЛУБЕ</a>
+            <a href="./02sevice.html">УСЛУГИ</a>
+            <a href="./03team.html">КОМАНДА</a>
+            <a href="./04contact.html">КОНТАКТЫ</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h6>МЫ НА СВЯЗИ</h6>
+          <br />
+          <div class="ul-footer">
+            <a>8-911-092-93-00</a>
+            <a>8-911-925-44-12</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h6>АДРЕС</h6>
+          <br />
+          <div class="ul-footer">
+            <a
+              >Санкт-Петербург,<br />
+              Пулковское отделение,<br />
+              п.Шушары д.41, ЛИТ "А"</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Находим элементы карусели и изображения
+      const carousel = document.getElementById("carouselExampleIndicators");
+      const carouselItems = carousel.querySelectorAll(".carousel-item");
+
+      function replaceImages() {
+        // Получаем текущую ширину экрана
+        const currentWidth = window.innerWidth;
+
+        // Проверяем условие для замены изображений
+        if (currentWidth <= 425) {
+          // Заменяем src изображений
+          carouselItems[0].querySelector("img").src = "./img/slide11.png";
+          carouselItems[1].querySelector("img").src = "./img/slide21.png";
+          carouselItems[2].querySelector("img").src = "./img/slide31.png";
+        } else {
+          // Возвращаем исходные src изображений
+          carouselItems[0].querySelector("img").src = "./img/slide1.png";
+          carouselItems[1].querySelector("img").src = "./img/slide2.png";
+          carouselItems[2].querySelector("img").src = "./img/slide3.png";
+        }
+      }
+
+      // Вызываем функцию при загрузке страницы и изменении размера окна
+      replaceImages();
+      window.addEventListener("resize", replaceImages);
+    </script>
+    <script src="./script.js"></script>
+    <script src="./anim.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  </body>
+</html>

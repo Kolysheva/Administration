@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=425, initial-scale=1.0" />
+    <title>КСК Юнион</title>
+  </head>
+
+  <body>
+    <nav class="nav-bar">
+      <div class="toggle-menu">
+        <div class="line line1"></div>
+
+        <div class="line line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="./index.html" class="a-header">ГЛАВНАЯ</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="./01about.html" class="a-header">О КЛУБЕ</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="./02sevice.html" class="a-header">УСЛУГИ</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="./03team.html" class="a-header">КОМАНДА</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="./04contact.html" class="a-header">КОНТАКТЫ</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--HEADER-->
+    <header>
+      <nav>
+        <a href="./index.html"><img src="./img/logo.svg" alt="logo" /></a>
+        <ul class="ul-header">
+          <a href="./index.html" class="a-header">ГЛАВНАЯ</a>
+          <a href="./01about.html" class="a-header">О КЛУБЕ</a>
+          <a href="./02sevice.html" class="a-header">УСЛУГИ</a>
+          <a href="./03team.html" class="a-header">КОМАНДА</a>
+          <a href="./04contact.html" class="a-header">КОНТАКТЫ</a>
+        </ul>
+      </nav>
+
+      <div class="banner-text">
+        <h1 class="banner-text-top">
+          <span class="colortext">КОННЫЙ</span><br />
+          СПОРТИВНЫЙ
+        </h1>
+
+        <h1 class="banner-text-bottom">
+          КЛУБ <span class="colortext">ЮНИОН</span>
+        </h1>
+      </div>
+    </header>
+    <!--HEADER-->
+
+    <!--SCRIPTS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script>
+      gsap.from(".ul-header", {
+        duration: 1,
+        opacity: 0,
+        y: -50,
+        ease: "power2.out",
+        duration: 2,
+        delay: 2,
+      });
+
+      gsap.from(".banner-text-top", {
+        duration: 1,
+        opacity: 0,
+        x: -200,
+        ease: "power2.out",
+        duration: 2,
+        delay: 1,
+      });
+
+      gsap.from(".banner-text-bottom", {
+        duration: 1,
+        opacity: 0,
+        x: 200,
+        ease: "power2.out",
+        duration: 2,
+        delay: 1,
+      });
+    </script>
+    <!--SCRIPTS-->
+    <div class="wrapper">
+      <!--SECTION-2-->
+      <section class="section-about">
+        <div class="box">
+          <div class="lrft"><h6>О НАС</h6></div>
+          <div class="right">
+            <h4>РАССКАЖЕМ ВСЕ О НАШЕМ КЛУБЕ</h4>
+            <div class="right-bottom">
+              <div class="right-bottom-1">
+                <p>
+                  Мы уверены, что занятия верховой ездой и общение с лошадьми
+                  должны быть доступны всем. Людям разного возраста <br />мы
+                  предлагаем лошадей <br />
+                  и физическую нагрузку, соответствующую <br />
+                  их возможностям.
+                </p>
+              </div>
+              <div class="right-bottom-1">
+                <p>
+                  Наш клуб отличается не только удобным расположением, <br />но
+                  и развитой инфраструктурой, которая позволяет обеспечивать
+                  комфортные условия <br />для содержания лошадей, проведения
+                  занятий <br />
+                  и соревнований.
+                </p>
+              </div>
+              <div id="extraimg" class="right-bottom-1">
+                <img src="./img/gridaboutimg.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--SECTION-2-->
+    </div>
+    <!--SECTION-3-->
+    <section class="section-p">
+      <h5>
+        Людям разного возраста и с разным опытом мы
+        <span class="colortext"
+          >предлагаем лошадей<br />
+          и физическую нагрузку, соответствующую их возможностям.<br />
+          Расположение клуба</span
+        >
+        позволяет не тратить много времени на дорогу
+      </h5>
+    </section>
+    <!--SECTION-3-->
+
+    <!--SLIDER-->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+      data-interval="2000"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./img/slide1.png" alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="./img/slide2.png"
+            alt="Second slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./img/slide3.png" alt="Third slide" />
+        </div>
+      </div>
+    </div>
+    <!--SLIDER-->
+    <div class="wrapper">
+      <!--SECTION-4-->
+      <section class="section-about">
+        <div class="box">
+          <div class="lrft"><h6>ПРЕИМУЩЕСТВА</h6></div>
+          <div class="right">
+            <h4>ВЕРХОВАЯ ЕЗДА — ЭТО БОЛЬШЕ, ЧЕМ СПОРТ</h4>
+          </div>
+        </div>
+        <br />
+        <div class="tiles">
+          <div class="tile">
+            <h6>ФИЗИЧЕСКАЯ АКТИВНОСТЬ</h6>
+            <p>
+              Езда верхом способствуют укреплению мышц, улучшению координации
+              движений, развитию баланса<br />
+              и выносливости. Это также помогает поддерживать общее физическое
+              здоровье.
+            </p>
+          </div>
+          <div class="tile">
+            <h6>НОВОЕ ОКРУЖЕНИЕ</h6>
+            <p>
+              В конном клубе можно встретить людей с общим интересом к лошадям и
+              конному спорту. Это создает возможности для новых знакомств,
+              развития социальных навыков и работы в команде при уходе за
+              лошадьми или участии в соревнованиях.
+            </p>
+          </div>
+          <div class="tile">
+            <h6>СПОРТИВНЫЕ НАВЫКИ</h6>
+            <p>
+              Конный клуб предоставляет возможность изучать дисциплины конного
+              спорта, такие как конкур, выездка<br />
+              и вольтижировка. Участие<br />
+              в тренировках и соревнованиях помогает развивать навыки, повышать
+              уровень подготовки<br />
+              и достигать новых целей.
+            </p>
+          </div>
+          <div class="tile">
+            <h6>РЕЛАКСАЦИЯ</h6>
+            <p>
+              Взаимодействие с лошадьми<br />
+              и природой имеет успокаивающий эффект<br />
+              на нервную систему, помогает снять стресс и улучшить настроение.
+              Это может быть особенно полезно для тех,<br />
+              кто сталкивается с повышенным напряжением или тревожностью.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--SECTION-4-->
+
+      <!--SECTION-PHOTOS-->
+      <section class="section-photos">
+        <div class="photo div21"><img src="./img/photo1.png" /></div>
+        <div class="photo div22"></div>
+        <div class="photo div23"><img src="./img/photo2.png" /></div>
+        <div class="photo div24"></div>
+        <div class="photo div25"><img src="./img/photo3.png" /></div>
+      </section>
+      <!--SECTION-PHOTOS-->
+
+      <!--SECTION-SERVICE-->
+      <section class="section-service">
+        <div class="box">
+          <div class="lrft">
+            <h6>УСЛУГИ</h6>
+          </div>
+          <div class="right">
+            <h4 >ПОПРОБУЙ НАЧАТЬ ЕЗДИТЬ ВЕРХОМ</h4>
+            <div class="div33">
+              <div class="tab-row">
+                <h6>ИНДИВИДУАЛЬНАЯ ТРЕНИРОВКА</h6>
+              </div>
+              <div class="tab-row">
+                <h6>ГРУППОВАЯ ТРЕНИРОВКА</h6>
+              </div>
+              <div class="tab-row">
+                <h6>СПОРТИВНАЯ ТРЕНИРОВКА</h6>
+              </div>
+              <div class="tab-row">
+                <h6>ИППОТЕРАПИЯ</h6>
+              </div>
+              <div class="tab-row">
+                <h6>АРЕНДА ЛОШАДИ ДЛЯ ФОТОСЕССИИ</h6>
+              </div>
+              <div class="tab-row">
+                <h6>ПОСТОЙ ЧАСТНЫХ ЛОШАДЕЙ</h6>
+              </div>
+              <div class="tab-row">
+                <h6>СОЛЯРИЙ И МОЙКА ДЛЯ ЛОШАДЕЙ</h6>
+              </div>
+              <a href="./02sevice.html"
+                ><button class="btn-service">ПОДРОБНЕЕ</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--SECTION-SERVICE-->
+
+    <!--SECTION-FORM-->
+    <section class="section-form">
+      <div class="wrapper">
+        <section class="section-about">
+          <div class="box">
+            <div class="lrft">
+              <h4></h4>
+            </div>
+            <div id="extraform" class="right">
+              <h4 id="extrafont">ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ</h4>
+              <div class="div33">
+                <form
+                  action="https://formspree.io/f/mvoevoaz"
+                  method="post"
+                  class="contact-form"
+                >
+                  <input name="Tel" placeholder="ТЕЛЕФОН" type="tel" required />
+                  <input
+                    name="Email"
+                    placeholder="EMAIL"
+                    type="email"
+                    required
+                  />
+                  <button type="submit" class="btn-form">ОТПРАВИТЬ</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!--SECTION-FORM-->
+
+    <footer>
+      <div class="wrapper-footer">
+        <div class="footer-column">
+          <a href="/index.html"><img src="./img/logo.svg" alt="logo" /></a>
+        </div>
+        <div class="footer-column">
+          <h6>НАВИГАЦИЯ</h6>
+          <br />
+          <div class="ul-footer">
+            <a href="./index.html">ГЛАВНАЯ</a>
+            <a href="./01about.html">О КЛУБЕ</a>
+            <a href="./02sevice.html">УСЛУГИ</a>
+            <a href="./03team.html">КОМАНДА</a>
+            <a href="./04contact.html">КОНТАКТЫ</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h6>МЫ НА СВЯЗИ</h6>
+          <br />
+          <div class="ul-footer">
+            <a>8-911-092-93-00</a>
+            <a>8-911-925-44-12</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h6>АДРЕС</h6>
+          <br />
+          <div class="ul-footer">
+            <a
+              >Санкт-Петербург,<br />
+              Пулковское отделение,<br />
+              п.Шушары д.41, ЛИТ "А"</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Находим элементы карусели и изображения
+      const carousel = document.getElementById('carouselExampleIndicators');
+      const carouselItems = carousel.querySelectorAll('.carousel-item');
+      
+      function replaceImages() {
+        // Получаем текущую ширину экрана
+        const currentWidth = window.innerWidth;
+        
+        // Проверяем условие для замены изображений
+        if (currentWidth <= 425) {
+          // Заменяем src изображений
+          carouselItems[0].querySelector('img').src = './img/slide11.png';
+          carouselItems[1].querySelector('img').src = './img/slide21.png';
+          carouselItems[2].querySelector('img').src = './img/slide31.png';
+        } else {
+          // Возвращаем исходные src изображений
+          carouselItems[0].querySelector('img').src = './img/slide1.png';
+          carouselItems[1].querySelector('img').src = './img/slide2.png';
+          carouselItems[2].querySelector('img').src = './img/slide3.png';
+        }
+      }
+    
+      // Вызываем функцию при загрузке страницы и изменении размера окна
+      replaceImages();
+      window.addEventListener('resize', replaceImages);
+    </script>
+    
+    <script src="./script.js"></script>
+    <script src="./anim.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  </body>
+</html>
